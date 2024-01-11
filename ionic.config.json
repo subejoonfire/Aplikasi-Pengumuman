@@ -1,0 +1,7 @@
+{
+  "name": "Aplikasi Pengingat Jadwal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
