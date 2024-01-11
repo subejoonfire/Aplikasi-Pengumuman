@@ -20,7 +20,7 @@ export class ApiService {
   }
   editPengumuman(data: any) {
     return this.http.get(
-      `https://harlanprofile.000webhostapp.com/pengumuman-update.php?Judul=${data.Judul}&Isi=${data.Isi}&Waktu=${data.Waktu}&idPengumuman=${data.idPengumuman}`
+      `https://harlanprofile.000webhostapp.com/pengumuman-update.php?Judul=${data.Judul}&Isi=${data.Isi}&Waktu=${data.Waktu}&idpengumuman=${data.idpengumuman}`
     );
   }
   Login(Username: any, Password: any) {

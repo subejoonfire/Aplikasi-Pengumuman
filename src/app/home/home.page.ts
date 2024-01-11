@@ -31,7 +31,7 @@ export class HomePage {
       Judul: this.Judul,
       Isi: this.Isi,
       Waktu: this.Waktu,
-      idPengumuman: this.idpengumuman,
+      idpengumuman: this.idpengumuman,
     };
 
     if (this.Button == 'Edit') {
