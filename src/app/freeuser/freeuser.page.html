@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Pengumuman</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Pengumuman</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Body -->
+
+  <ion-list class="custom-list">
+    <ion-item *ngFor="let row of Pengumuman;">
+      <ion-label>{{ row.judul }}, {{ row.isi }}, {{ row.waktu }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
